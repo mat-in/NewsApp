@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- News Image -->
+        <ImageView
+            android:id="@+id/news_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="News Image" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:fontFamily="monospace"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white" />
+
+        <!-- Published Date -->
+        <TextView
+            android:id="@+id/news_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Published Date"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:textColor="#A9A9A9"
+            android:layout_marginTop="4dp" />
+
+        <!-- Toggle Description Button -->
+        <TextView
+            android:id="@+id/toggle_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Description ▼"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="#201659"
+            android:layout_marginTop="12dp" />
+
+        <!-- Description (hidden/shown dynamically) -->
+        <TextView
+            android:id="@+id/news_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description goes here"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white" />
+
+        <!-- Content -->
+        <TextView
+            android:id="@+id/news_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content here"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/white" />
+
+        <!-- URL -->
+        <TextView
+            android:id="@+id/news_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read more"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:textColor="#039EFF"
+            android:autoLink="web"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
