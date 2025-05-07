@@ -40,7 +40,7 @@ com.example.newsapp/
 
 | Home Screen | Article Detail |
 |-------------|----------------|
-| ![Home](screenshots/home.png) | ![Detail](screenshots/detail.png) |
+| ![Home](home.png) | ![Detail](detail.png) |
 
 ## 🔧 Setup Instructions
 
