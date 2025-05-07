@@ -24,15 +24,14 @@ A sleek, modern News App built using **Kotlin**, **MVVM architecture**, and **Re
 - **Async:** Coroutines
 
 ## 📦 Project Structure
-
-
-
+```
 com.example.newsapp/
-├── data/              # Models, Retrofit interfaces, API response classes
-├── view/              # RecyclerView Adapter
-├── fragments/         # NewsFragment (details screen)
-├── viewmodel/         # ViewModel class with LiveData
-├── MainActivity.kt    # Hosts the RecyclerView and manages fragment transaction
+├── data/            # Models, Retrofit interfaces, API response classes
+├── view/            # RecyclerView Adapter
+├── fragments/       # NewsFragment (details screen)
+├── viewmodel/       # ViewModel class with LiveData
+├── MainActivity.kt  # Hosts the RecyclerView and manages fragment transaction
+```
 
 
 
