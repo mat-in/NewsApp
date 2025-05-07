@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 class NewsViewModel: ViewModel() {
     var newsLiveData = MutableLiveData<List<News>>()
     var errorLiveData = MutableLiveData<String>()
-    var apiKey = "caee27927c5e4678a63d2268a81f9759"
+    var apiKey = "API_KEY"
     var retrofitService = RetrofitInstance()
         .getRetrofitInstance()
         .create(NewsInterface::class.java)
