@@ -61,8 +61,8 @@ com.example.newsapp/
 
 ## 📌 Notes
 
-* Make sure your API key (if required) is stored securely and not hard-coded.
-* Articles with incomplete content can be read fully using the `url` field which you can open in a WebView or external browser.
+* API Key to be stored in viemodel file.
+* Articles with incomplete content can be read fully using the `url` field which you can open in a WebView or external browser because the newsapi doesn’t deliver the full content.
 
 ## 🤝 Contributing
 
